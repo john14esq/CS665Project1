@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 def get_db():
-    conn = sqlite3.connect('CS665Project.db')  # Replace with the path to your database
+    conn = sqlite3.connect('CS665Project.db')  #Using database CS665Project.db
     return conn
 
 @app.route('/reports')
