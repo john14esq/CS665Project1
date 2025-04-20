@@ -6,11 +6,17 @@
 </head>
 <body>
     <h1>Reports</h1>
-    <ul>
-        <li><a href="/report/attendees-per-event">Attendees per Event</a></li>
-        <li><a href="/report/events-with-venue">Events with Venue</a></li>
-        <li><a href="/report/most-attended">Most Attended Event</a></li>
-        <li><a href="/report/events-multiple-attendees">Events with Multiple RSVPs</a></li>
-    </ul>
+    <form action="/report/attendees-per-event" method="get">
+        <button type="submit">Attendees per Event</button>
+    </form>
+    <form action="/report/events-with-venue" method="get">
+        <button type="submit">Events with Venue</button>
+    </form>
+    <form action="/report/most-attended" method="get">
+        <button type="submit">Most Attended Event</button>
+    </form>
+    <form action="/report/events-multiple-attendees" method="get">
+        <button type="submit">Events with Multiple RSVPs</button>
+    </form>
 </body>
 </html>
